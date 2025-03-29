@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          B Jahnavi Chowdhary
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+    </section>      <div>
+        <img src="https://media.istockphoto.com/id/1199842427/vector/young-woman-working-at-home.jpg?s=1024x1024&w=is&k=20&c=HbxCaGizX42vmPjKlyovMIp1KQlPYbbnDi7d31dUYDU=" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm B Jahnavi Chowdhary! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            A passionate Data Science & Software Engineering enthusiast with a strong foundation in MySQL, RDBMS, Java, Python, and HTML.
+            I thrive on solving complex problems using data-driven insights and enjoy building impactful projects that combine AI, machine learning, and full-stack development.
+            My goal is to transition into a full-time data science role where I can contribute to impactful projects and drive innovation.
+            Let's connect and build something amazing together!
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>Web Development</h6>
+          <p>HTML, CSS, JS, react</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>Python</h6>
+          <p>Data visualtion, ML, Data analysis</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/java.png"/>
+          <h6>Java</h6>
+          <p>DSA, GUI</p>
+        </div> 
+           
+        <div class="skill">
+          <img src="html_finalprojimages/database.png"/>
+          <h6>Database Management</h6>
+          <p>MySQL, Oracle SQL, Mongosh, RDBMS</p>
+        </div> 
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Full-Stack Development Projects</h3>
+            <ul>
+              <li>Built dynamic projects using HTML, CSS, and JavaScript.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Passport Management</h3>
+            <ul>
+              <li> Designed and implemented a relational database for a Passport Management System using PostgreSQL in pgAdmin.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3> AI-Based Fitness Trainer (Ongoing)</h3>
+            <ul>
+              <li> Developing a real-time exercise recognition and repetition counting system using pose detection.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Train Ticket Booking System</h3>
+            <ul>
+              <li> Developed a Train Ticket Booking System using Java with a Graphical User Interface (GUI) and database using mysql workbench.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Movie Recommendation System</h3>
+            <ul>
+              <li> Developed a Movie Recommendation System using Python to suggest movies based on user preferences.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Jahnavi is a very quick learner and quickly grasps key concepts of Web development. 
+          She got a great attitude & she is an excellent team player. 
+          She has a curious mind and asks the right question. 
+          She takes initiative within a team and has potentials to lead the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Jahnavi is a highly skilled data science enthusiast with a strong grasp of machine learning and AI. 
+          Her ability to analyze real-world datasets and develop intelligent solutions is truly impressive.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Jahnavi’s expertise in full-stack development and database management is remarkable.
+          She seamlessly integrates frontend and backend technologies to create efficient,
+          user-friendly applications that solve real-world challenges.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
